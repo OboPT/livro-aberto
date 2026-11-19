@@ -41,7 +41,7 @@ O teste `tests/i18n.test.ts` falha se faltar ou sobrar alguma chave.
 Acrescenta a chave nos **três** ficheiros. Nunca escrevas texto visível diretamente no código: usa `t("chave")`.
 
 ## Deploy no GitHub Pages
-Workflow manual `Deploy to GitHub Pages (manual)`. Em repositório privado o Pages pode exigir plano pago. Em Settings > Pages escolhe "GitHub Actions". Rollback: volta a correr o workflow num commit anterior.
+O workflow `Deploy to GitHub Pages` corre em cada push ao `main` (e também manualmente). Em repositório privado o Pages pode exigir plano pago. Em Settings > Pages escolhe "GitHub Actions". Rollback: volta a correr o workflow num commit anterior.
 
 ## Revisão pendente
 As traduções ES e EN foram escritas por IA e **precisam de revisão humana** antes de uso real. Os limiares do diagnóstico (poupança < 10%, prestações > 35%, TAN de cartões >= 15%, empréstimos >= 10%) são heurísticas de coaching em `src/domain/diagnosis.ts`, a rever por ti.
