@@ -1,0 +1,86 @@
+{
+  "app": {
+    "title": "Libro Abierto",
+    "subtitle": "Mapa de tu situación financiera, en pareja o en solitario.",
+    "privacy_notice": "Prototipo: los datos se quedan solo en este dispositivo y no se envían a ningún sitio. Usa únicamente datos ficticios."
+  },
+  "nav": {
+    "language_label": "Idioma"
+  },
+  "language": {
+    "pt": "Português",
+    "es": "Español",
+    "en": "English"
+  },
+  "section": {
+    "incomes": { "title": "Ingresos mensuales", "add": "Añadir ingreso" },
+    "expenses": { "title": "Gastos mensuales", "add": "Añadir gasto" },
+    "debts": { "title": "Préstamos y tarjetas de crédito", "add": "Añadir deuda" },
+    "investments": { "title": "Inversiones y ahorros", "add": "Añadir inversión" }
+  },
+  "field": {
+    "label": "Descripción",
+    "monthly": "Importe mensual (€)",
+    "category": "Categoría",
+    "kind": "Tipo",
+    "balance": "Capital pendiente (€)",
+    "apr": "Tipo anual (TIN, %)",
+    "monthly_payment": "Cuota mensual (€)",
+    "value": "Valor actual (€)"
+  },
+  "action": {
+    "remove": "Quitar",
+    "export": "Exportar datos (JSON)",
+    "clear": "Borrar todo",
+    "clear_confirm": "Confirmar: borrar todos los datos"
+  },
+  "category": {
+    "housing": "Vivienda",
+    "food": "Alimentación",
+    "transport": "Transporte",
+    "utilities": "Suministros",
+    "leisure": "Ocio",
+    "health": "Salud",
+    "other": "Otros"
+  },
+  "debt_kind": {
+    "loan": "Préstamo",
+    "card": "Tarjeta de crédito"
+  },
+  "error": {
+    "label_required": "Indica una descripción.",
+    "amount_invalid": "Indica un importe igual o superior a cero.",
+    "apr_invalid": "Indica un tipo entre 0 y 100."
+  },
+  "diagnosis": {
+    "title": "Panorama general",
+    "review_note": "Diagnóstico preliminar. Lo revisaremos contigo en la primera reunión.",
+    "disclaimer": "Esto no es asesoramiento financiero regulado.",
+    "empty": "Rellena el formulario para ver el panorama.",
+    "has_errors": "Hay filas incompletas o inválidas. Quedan fuera del diagnóstico hasta que las corrijas.",
+    "not_available": "Sin datos",
+    "metric": {
+      "income": "Ingresos",
+      "expenses": "Gastos",
+      "debt_payments": "Cuotas de deudas",
+      "surplus": "Sobrante mensual",
+      "savings_rate": "Tasa de ahorro",
+      "debt_service": "Peso de las cuotas sobre los ingresos",
+      "debt_balance": "Deuda total",
+      "investments": "Inversiones",
+      "monthly_interest": "Intereses mensuales estimados"
+    },
+    "categories_title": "Gastos por categoría",
+    "debts_title": "Deudas de mayor a menor tipo",
+    "flags_title": "Puntos de atención",
+    "no_flags": "Sin puntos de atención en este diagnóstico preliminar.",
+    "flag": {
+      "no_income": "No hay ingresos registrados.",
+      "negative_surplus": "Los gastos y las cuotas superan los ingresos.",
+      "low_savings_rate": "La tasa de ahorro está por debajo del 10%.",
+      "high_debt_service": "Las cuotas pesan más del 35% de los ingresos.",
+      "high_apr_debt": "Hay deudas con tipo alto: tarjetas desde el 15%, préstamos desde el 10%.",
+      "no_investments": "No hay inversiones ni ahorros registrados."
+    }
+  }
+}

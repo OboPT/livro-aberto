@@ -1,0 +1,86 @@
+{
+  "app": {
+    "title": "Livro Aberto",
+    "subtitle": "Mapa da tua situação financeira, em casal ou a sós.",
+    "privacy_notice": "Protótipo: os dados ficam só neste dispositivo, não são enviados para lado nenhum. Usa apenas dados fictícios."
+  },
+  "nav": {
+    "language_label": "Idioma"
+  },
+  "language": {
+    "pt": "Português",
+    "es": "Español",
+    "en": "English"
+  },
+  "section": {
+    "incomes": { "title": "Receitas mensais", "add": "Adicionar receita" },
+    "expenses": { "title": "Despesas mensais", "add": "Adicionar despesa" },
+    "debts": { "title": "Empréstimos e cartões de crédito", "add": "Adicionar dívida" },
+    "investments": { "title": "Investimentos e poupanças", "add": "Adicionar investimento" }
+  },
+  "field": {
+    "label": "Descrição",
+    "monthly": "Valor mensal (€)",
+    "category": "Categoria",
+    "kind": "Tipo",
+    "balance": "Capital em dívida (€)",
+    "apr": "Taxa anual (TAN, %)",
+    "monthly_payment": "Prestação mensal (€)",
+    "value": "Valor atual (€)"
+  },
+  "action": {
+    "remove": "Remover",
+    "export": "Exportar dados (JSON)",
+    "clear": "Limpar tudo",
+    "clear_confirm": "Confirmar: apagar todos os dados"
+  },
+  "category": {
+    "housing": "Habitação",
+    "food": "Alimentação",
+    "transport": "Transportes",
+    "utilities": "Contas da casa",
+    "leisure": "Lazer",
+    "health": "Saúde",
+    "other": "Outras"
+  },
+  "debt_kind": {
+    "loan": "Empréstimo",
+    "card": "Cartão de crédito"
+  },
+  "error": {
+    "label_required": "Indica uma descrição.",
+    "amount_invalid": "Indica um valor igual ou superior a zero.",
+    "apr_invalid": "Indica uma taxa entre 0 e 100."
+  },
+  "diagnosis": {
+    "title": "Panorama geral",
+    "review_note": "Diagnóstico preliminar. Será revisto contigo na primeira reunião.",
+    "disclaimer": "Isto não é aconselhamento financeiro regulado.",
+    "empty": "Preenche o formulário para ver o panorama.",
+    "has_errors": "Há linhas incompletas ou inválidas. Ficam fora do diagnóstico até as corrigires.",
+    "not_available": "Sem dados",
+    "metric": {
+      "income": "Receitas",
+      "expenses": "Despesas",
+      "debt_payments": "Prestações de dívidas",
+      "surplus": "Sobra mensal",
+      "savings_rate": "Taxa de poupança",
+      "debt_service": "Peso das prestações no rendimento",
+      "debt_balance": "Dívida total",
+      "investments": "Investimentos",
+      "monthly_interest": "Juros mensais estimados"
+    },
+    "categories_title": "Despesas por categoria",
+    "debts_title": "Dívidas da taxa mais alta para a mais baixa",
+    "flags_title": "Pontos de atenção",
+    "no_flags": "Sem pontos de atenção neste diagnóstico preliminar.",
+    "flag": {
+      "no_income": "Não há receitas registadas.",
+      "negative_surplus": "As despesas e prestações superam as receitas.",
+      "low_savings_rate": "A taxa de poupança está abaixo de 10%.",
+      "high_debt_service": "As prestações pesam mais de 35% do rendimento.",
+      "high_apr_debt": "Há dívidas com taxa alta: cartões a partir de 15%, empréstimos a partir de 10%.",
+      "no_investments": "Não há investimentos ou poupanças registados."
+    }
+  }
+}

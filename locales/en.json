@@ -1,0 +1,86 @@
+{
+  "app": {
+    "title": "Open Book",
+    "subtitle": "A map of your financial situation, as a couple or on your own.",
+    "privacy_notice": "Prototype: data stays on this device only and is not sent anywhere. Use fictional data only."
+  },
+  "nav": {
+    "language_label": "Language"
+  },
+  "language": {
+    "pt": "Português",
+    "es": "Español",
+    "en": "English"
+  },
+  "section": {
+    "incomes": { "title": "Monthly income", "add": "Add income" },
+    "expenses": { "title": "Monthly expenses", "add": "Add expense" },
+    "debts": { "title": "Loans and credit cards", "add": "Add debt" },
+    "investments": { "title": "Investments and savings", "add": "Add investment" }
+  },
+  "field": {
+    "label": "Description",
+    "monthly": "Monthly amount (€)",
+    "category": "Category",
+    "kind": "Type",
+    "balance": "Outstanding balance (€)",
+    "apr": "Annual rate (APR, %)",
+    "monthly_payment": "Monthly payment (€)",
+    "value": "Current value (€)"
+  },
+  "action": {
+    "remove": "Remove",
+    "export": "Export data (JSON)",
+    "clear": "Clear everything",
+    "clear_confirm": "Confirm: delete all data"
+  },
+  "category": {
+    "housing": "Housing",
+    "food": "Food",
+    "transport": "Transport",
+    "utilities": "Utilities",
+    "leisure": "Leisure",
+    "health": "Health",
+    "other": "Other"
+  },
+  "debt_kind": {
+    "loan": "Loan",
+    "card": "Credit card"
+  },
+  "error": {
+    "label_required": "Enter a description.",
+    "amount_invalid": "Enter an amount of zero or more.",
+    "apr_invalid": "Enter a rate between 0 and 100."
+  },
+  "diagnosis": {
+    "title": "Overview",
+    "review_note": "Preliminary diagnosis. We will review it with you in the first meeting.",
+    "disclaimer": "This is not regulated financial advice.",
+    "empty": "Fill in the form to see the overview.",
+    "has_errors": "Some rows are incomplete or invalid. They stay out of the diagnosis until you fix them.",
+    "not_available": "No data",
+    "metric": {
+      "income": "Income",
+      "expenses": "Expenses",
+      "debt_payments": "Debt payments",
+      "surplus": "Monthly surplus",
+      "savings_rate": "Savings rate",
+      "debt_service": "Debt payments as share of income",
+      "debt_balance": "Total debt",
+      "investments": "Investments",
+      "monthly_interest": "Estimated monthly interest"
+    },
+    "categories_title": "Expenses by category",
+    "debts_title": "Debts from highest to lowest rate",
+    "flags_title": "Points of attention",
+    "no_flags": "No points of attention in this preliminary diagnosis.",
+    "flag": {
+      "no_income": "No income recorded.",
+      "negative_surplus": "Expenses and debt payments exceed income.",
+      "low_savings_rate": "The savings rate is below 10%.",
+      "high_debt_service": "Debt payments take more than 35% of income.",
+      "high_apr_debt": "Some debts have a high rate: cards from 15%, loans from 10%.",
+      "no_investments": "No investments or savings recorded."
+    }
+  }
+}
